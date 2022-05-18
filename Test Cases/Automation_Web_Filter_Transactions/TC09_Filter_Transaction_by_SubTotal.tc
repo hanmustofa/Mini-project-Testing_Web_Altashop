@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_Filter_Transaction_by_SubTotal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>40f55854-8421-4450-ade4-342269622ac9</testCaseGuid>
+</TestCaseEntity>

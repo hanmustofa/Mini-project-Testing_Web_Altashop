@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_Suite_Negative" time="180.635" tests="2" failures="0" errors="0">
+   <testsuite name="Test_Suite_Negative" tests="2" failures="0" errors="0" time="180.635" skipped="0" timestamp="2022-05-12 11:29:43" hostname="Hans-Mustofa - DESKTOP-MP0UU16" id="Test Suites/Test_Suite_Negative">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hans-Mustofa\\Katalon Studio\\Testing-WEB-Mini-Project-Hans\\Reports\\20220512_112925\\Test_Suite_Negative\\20220512_112925"/>
+         <property name="logFiles" value="C:\\Users\\Hans-Mustofa\\Katalon Studio\\Testing-WEB-Mini-Project-Hans\\Reports\\20220512_112925\\Test_Suite_Negative\\20220512_112925\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Hans-Mustofa - DESKTOP-MP0UU16"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.54"/>
+         <property name="hostAddress" value="192.168.173.1"/>
+         <property name="sessionId" value="4ca2027114c54e3a4f1a16a64c030269"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Automation_Web_Register/TC01_Register_Negative" time="75.075" classname="Test Cases/Automation_Web_Register/TC01_Register_Negative" status="PASSED">
+         <system-out><![CDATA[2022-05-12 11:29:44 - [TEST_CASE][PASSED] - Test Cases/Automation_Web_Register/TC01_Register_Negative: Test Cases/Automation_Web_Register/TC01_Register_Negative
+
+2022-05-12 11:29:45 - [TEST_STEP][PASSED] - for ([i = 1, i <= 6, (i++)]): Delayed 3 second(s)
+
+2022-05-12 11:29:45 - [TEST_STEP][PASSED] - openBrowser("https://qa.alta.id/auth/login"): Browser is opened with url: 'https://qa.alta.id/auth/login'
+
+2022-05-12 11:29:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 11:29:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 11:29:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.alta.id/auth/login'
+
+2022-05-12 11:29:52 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Register/go_to_register_btn"), STOP_ON_FAILURE): Object: 'Object Repository/Object-Web/Object_Register/go_to_register_btn' is clicked on
+
+2022-05-12 11:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Register/go_to_register_btn' is clicked on
+
+2022-05-12 11:29:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_nama_lengkap"), findTestData("data_Register_Negative").getValue(1, i)): Text '' is set on object 'Object Repository/Object-Web/Object_Register/txt_nama_lengkap'
+
+2022-05-12 11:29:54 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Object-Web/Object_Register/txt_nama_lengkap'
+
+2022-05-12 11:29:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_email"), findTestData("data_Register_Negative").getValue(2, i)): Text 'hans@email.com' is set on object 'Object Repository/Object-Web/Object_Register/txt_email'
+
+2022-05-12 11:29:55 - [MESSAGE][PASSED] - Text 'hans@email.com' is set on object 'Object Repository/Object-Web/Object_Register/txt_email'
+
+2022-05-12 11:29:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_password"), findTestData("data_Register_Negative").getValue(3, i)): Text 'passwordhans123' is set on object 'Object Repository/Object-Web/Object_Register/txt_password'
+
+2022-05-12 11:29:56 - [MESSAGE][PASSED] - Text 'passwordhans123' is set on object 'Object Repository/Object-Web/Object_Register/txt_password'
+
+2022-05-12 11:29:56 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Register/submit_register_btn")): Object: 'Object Repository/Object-Web/Object_Register/submit_register_btn' is clicked on
+
+2022-05-12 11:29:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Register/submit_register_btn' is clicked on
+
+2022-05-12 11:29:56 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-05-12 11:29:57 - [MESSAGE][PASSED] - Browser is closed
+
+2022-05-12 11:29:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 11:30:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 11:30:00 - [TEST_STEP][PASSED] - openBrowser("https://qa.alta.id/auth/login"): Browser is opened with url: 'https://qa.alta.id/auth/login'
+
+2022-05-12 11:30:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 11:30:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 11:30:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.alta.id/auth/login'
+
+2022-05-12 11:30:04 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Register/go_to_register_btn"), STOP_ON_FAILURE): Object: 'Object Repository/Object-Web/Object_Register/go_to_register_btn' is clicked on
+
+2022-05-12 11:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Register/go_to_register_btn' is clicked on
+
+2022-05-12 11:30:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_nama_lengkap"), findTestData("data_Register_Negative").getValue(1, i)): Text 'hans123' is set on object 'Object Repository/Object-Web/Object_Register/txt_nama_lengkap'
+
+2022-05-12 11:30:06 - [MESSAGE][PASSED] - Text 'hans123' is set on object 'Object Repository/Object-Web/Object_Register/txt_nama_lengkap'
+
+2022-05-12 11:30:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_email"), findTestData("data_Register_Negative").getValue(2, i)): Text '' is set on object 'Object Repository/Object-Web/Object_Register/txt_email'
+
+2022-05-12 11:30:06 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Object-Web/Object_Register/txt_email'
+
+2022-05-12 11:30:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_password"), findTestData("data_Register_Negative").getValue(3, i)): Text 'passwordhans123' is set on object 'Object Repository/Object-Web/Object_Register/txt_password'
+
+2022-05-12 11:30:07 - [MESSAGE][PASSED] - Text 'passwordhans123' is set on object 'Object Repository/Object-Web/Object_Register/txt_password'
+
+2022-05-12 11:30:07 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Register/submit_register_btn")): Object: 'Object Repository/Object-Web/Object_Register/submit_register_btn' is clicked on
+
+2022-05-12 11:30:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Register/submit_register_btn' is clicked on
+
+2022-05-12 11:30:08 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-05-12 11:30:09 - [MESSAGE][PASSED] - Browser is closed
+
+2022-05-12 11:30:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 11:30:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 11:30:12 - [TEST_STEP][PASSED] - openBrowser("https://qa.alta.id/auth/login"): Browser is opened with url: 'https://qa.alta.id/auth/login'
+
+2022-05-12 11:30:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 11:30:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 11:30:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.alta.id/auth/login'
+
+2022-05-12 11:30:16 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Register/go_to_register_btn"), STOP_ON_FAILURE): Object: 'Object Repository/Object-Web/Object_Register/go_to_register_btn' is clicked on
+
+2022-05-12 11:30:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Register/go_to_register_btn' is clicked on
+
+2022-05-12 11:30:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_nama_lengkap"), findTestData("data_Register_Negative").getValue(1, i)): Text 'hans123' is set on object 'Object Repository/Object-Web/Object_Register/txt_nama_lengkap'
+
+2022-05-12 11:30:17 - [MESSAGE][PASSED] - Text 'hans123' is set on object 'Object Repository/Object-Web/Object_Register/txt_nama_lengkap'
+
+2022-05-12 11:30:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_email"), findTestData("data_Register_Negative").getValue(2, i)): Text 'hans@email.com' is set on object 'Object Repository/Object-Web/Object_Register/txt_email'
+
+2022-05-12 11:30:18 - [MESSAGE][PASSED] - Text 'hans@email.com' is set on object 'Object Repository/Object-Web/Object_Register/txt_email'
+
+2022-05-12 11:30:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_password"), findTestData("data_Register_Negative").getValue(3, i)): Text '' is set on object 'Object Repository/Object-Web/Object_Register/txt_password'
+
+2022-05-12 11:30:19 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Object-Web/Object_Register/txt_password'
+
+2022-05-12 11:30:19 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Register/submit_register_btn")): Object: 'Object Repository/Object-Web/Object_Register/submit_register_btn' is clicked on
+
+2022-05-12 11:30:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Register/submit_register_btn' is clicked on
+
+2022-05-12 11:30:19 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-05-12 11:30:21 - [MESSAGE][PASSED] - Browser is closed
+
+2022-05-12 11:30:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 11:30:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 11:30:24 - [TEST_STEP][PASSED] - openBrowser("https://qa.alta.id/auth/login"): Browser is opened with url: 'https://qa.alta.id/auth/login'
+
+2022-05-12 11:30:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 11:30:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 11:30:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.alta.id/auth/login'
+
+2022-05-12 11:30:27 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Register/go_to_register_btn"), STOP_ON_FAILURE): Object: 'Object Repository/Object-Web/Object_Register/go_to_register_btn' is clicked on
+
+2022-05-12 11:30:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Register/go_to_register_btn' is clicked on
+
+2022-05-12 11:30:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_nama_lengkap"), findTestData("data_Register_Negative").getValue(1, i)): Text '##$$%%!!' is set on object 'Object Repository/Object-Web/Object_Register/txt_nama_lengkap'
+
+2022-05-12 11:30:29 - [MESSAGE][PASSED] - Text '##$$%%!!' is set on object 'Object Repository/Object-Web/Object_Register/txt_nama_lengkap'
+
+2022-05-12 11:30:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_email"), findTestData("data_Register_Negative").getValue(2, i)): Text 'hans@email.com' is set on object 'Object Repository/Object-Web/Object_Register/txt_email'
+
+2022-05-12 11:30:30 - [MESSAGE][PASSED] - Text 'hans@email.com' is set on object 'Object Repository/Object-Web/Object_Register/txt_email'
+
+2022-05-12 11:30:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_password"), findTestData("data_Register_Negative").getValue(3, i)): Text 'passwordhans123' is set on object 'Object Repository/Object-Web/Object_Register/txt_password'
+
+2022-05-12 11:30:31 - [MESSAGE][PASSED] - Text 'passwordhans123' is set on object 'Object Repository/Object-Web/Object_Register/txt_password'
+
+2022-05-12 11:30:31 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Register/submit_register_btn")): Object: 'Object Repository/Object-Web/Object_Register/submit_register_btn' is clicked on
+
+2022-05-12 11:30:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Register/submit_register_btn' is clicked on
+
+2022-05-12 11:30:31 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-05-12 11:30:32 - [MESSAGE][PASSED] - Browser is closed
+
+2022-05-12 11:30:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 11:30:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 11:30:35 - [TEST_STEP][PASSED] - openBrowser("https://qa.alta.id/auth/login"): Browser is opened with url: 'https://qa.alta.id/auth/login'
+
+2022-05-12 11:30:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 11:30:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 11:30:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.alta.id/auth/login'
+
+2022-05-12 11:30:39 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Register/go_to_register_btn"), STOP_ON_FAILURE): Object: 'Object Repository/Object-Web/Object_Register/go_to_register_btn' is clicked on
+
+2022-05-12 11:30:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Register/go_to_register_btn' is clicked on
+
+2022-05-12 11:30:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_nama_lengkap"), findTestData("data_Register_Negative").getValue(1, i)): Text 'hans123' is set on object 'Object Repository/Object-Web/Object_Register/txt_nama_lengkap'
+
+2022-05-12 11:30:40 - [MESSAGE][PASSED] - Text 'hans123' is set on object 'Object Repository/Object-Web/Object_Register/txt_nama_lengkap'
+
+2022-05-12 11:30:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_email"), findTestData("data_Register_Negative").getValue(2, i)): Text 'hans@email.com**' is set on object 'Object Repository/Object-Web/Object_Register/txt_email'
+
+2022-05-12 11:30:41 - [MESSAGE][PASSED] - Text 'hans@email.com**' is set on object 'Object Repository/Object-Web/Object_Register/txt_email'
+
+2022-05-12 11:30:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_password"), findTestData("data_Register_Negative").getValue(3, i)): Text 'passwordhans123' is set on object 'Object Repository/Object-Web/Object_Register/txt_password'
+
+2022-05-12 11:30:42 - [MESSAGE][PASSED] - Text 'passwordhans123' is set on object 'Object Repository/Object-Web/Object_Register/txt_password'
+
+2022-05-12 11:30:42 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Register/submit_register_btn")): Object: 'Object Repository/Object-Web/Object_Register/submit_register_btn' is clicked on
+
+2022-05-12 11:30:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Register/submit_register_btn' is clicked on
+
+2022-05-12 11:30:43 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-05-12 11:30:44 - [MESSAGE][PASSED] - Browser is closed
+
+2022-05-12 11:30:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 11:30:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 11:30:47 - [TEST_STEP][PASSED] - openBrowser("https://qa.alta.id/auth/login"): Browser is opened with url: 'https://qa.alta.id/auth/login'
+
+2022-05-12 11:30:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 11:30:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 11:30:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.alta.id/auth/login'
+
+2022-05-12 11:30:50 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Register/go_to_register_btn"), STOP_ON_FAILURE): Object: 'Object Repository/Object-Web/Object_Register/go_to_register_btn' is clicked on
+
+2022-05-12 11:30:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Register/go_to_register_btn' is clicked on
+
+2022-05-12 11:30:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_nama_lengkap"), findTestData("data_Register_Negative").getValue(1, i)): Text 'hans123' is set on object 'Object Repository/Object-Web/Object_Register/txt_nama_lengkap'
+
+2022-05-12 11:30:52 - [MESSAGE][PASSED] - Text 'hans123' is set on object 'Object Repository/Object-Web/Object_Register/txt_nama_lengkap'
+
+2022-05-12 11:30:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_email"), findTestData("data_Register_Negative").getValue(2, i)): Text 'hans@email.com, hansa@mail.com ' is set on object 'Object Repository/Object-Web/Object_Register/txt_email'
+
+2022-05-12 11:30:53 - [MESSAGE][PASSED] - Text 'hans@email.com, hansa@mail.com ' is set on object 'Object Repository/Object-Web/Object_Register/txt_email'
+
+2022-05-12 11:30:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_password"), findTestData("data_Register_Negative").getValue(3, i)): Text 'passwordhans123' is set on object 'Object Repository/Object-Web/Object_Register/txt_password'
+
+2022-05-12 11:30:54 - [MESSAGE][PASSED] - Text 'passwordhans123' is set on object 'Object Repository/Object-Web/Object_Register/txt_password'
+
+2022-05-12 11:30:54 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Register/submit_register_btn")): Object: 'Object Repository/Object-Web/Object_Register/submit_register_btn' is clicked on
+
+2022-05-12 11:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Register/submit_register_btn' is clicked on
+
+2022-05-12 11:30:55 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-05-12 11:30:56 - [MESSAGE][PASSED] - Browser is closed
+
+2022-05-12 11:30:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 11:30:59 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automation_Web_Login/TC02_Login_Negative" time="105.031" classname="Test Cases/Automation_Web_Login/TC02_Login_Negative" status="PASSED">
+         <system-out><![CDATA[2022-05-12 11:30:59 - [TEST_CASE][PASSED] - Test Cases/Automation_Web_Login/TC02_Login_Negative: Test Cases/Automation_Web_Login/TC02_Login_Negative
+
+2022-05-12 11:31:00 - [TEST_STEP][PASSED] - for ([i = 1, i <= 7, (i++)]): Delayed 3 second(s)
+
+2022-05-12 11:31:00 - [TEST_STEP][PASSED] - openBrowser("https://qa.alta.id/"): Browser is opened with url: 'https://qa.alta.id/'
+
+2022-05-12 11:31:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 11:31:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 11:31:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.alta.id/'
+
+2022-05-12 11:31:03 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Login/go_to_login_page_btn")): Object: 'Object Repository/Object-Web/Object_Login/go_to_login_page_btn' is clicked on
+
+2022-05-12 11:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Login/go_to_login_page_btn' is clicked on
+
+2022-05-12 11:31:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Login/txt_email"), findTestData("data_Login_Negative").getValue(1, i)): Text 'hans@gmail.com' is set on object 'Object Repository/Object-Web/Object_Login/txt_email'
+
+2022-05-12 11:31:09 - [MESSAGE][PASSED] - Text 'hans@gmail.com' is set on object 'Object Repository/Object-Web/Object_Login/txt_email'
+
+2022-05-12 11:31:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Login/txt_password"), findTestData("data_Login_Negative").getValue(2, i)): Text '&&&&&123' is set on object 'Object Repository/Object-Web/Object_Login/txt_password'
+
+2022-05-12 11:31:10 - [MESSAGE][PASSED] - Text '&&&&&123' is set on object 'Object Repository/Object-Web/Object_Login/txt_password'
+
+2022-05-12 11:31:10 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Login/submit_login_btn")): Object: 'Object Repository/Object-Web/Object_Login/submit_login_btn' is clicked on
+
+2022-05-12 11:31:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Login/submit_login_btn' is clicked on
+
+2022-05-12 11:31:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-12 11:31:12 - [MESSAGE][PASSED] - Browser is closed
+
+2022-05-12 11:31:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 11:31:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 11:31:15 - [TEST_STEP][PASSED] - openBrowser("https://qa.alta.id/"): Browser is opened with url: 'https://qa.alta.id/'
+
+2022-05-12 11:31:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 11:31:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 11:31:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.alta.id/'
+
+2022-05-12 11:31:18 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Login/go_to_login_page_btn")): Object: 'Object Repository/Object-Web/Object_Login/go_to_login_page_btn' is clicked on
+
+2022-05-12 11:31:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Login/go_to_login_page_btn' is clicked on
+
+2022-05-12 11:31:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Login/txt_email"), findTestData("data_Login_Negative").getValue(1, i)): Text 'aku@gmail.com' is set on object 'Object Repository/Object-Web/Object_Login/txt_email'
+
+2022-05-12 11:31:24 - [MESSAGE][PASSED] - Text 'aku@gmail.com' is set on object 'Object Repository/Object-Web/Object_Login/txt_email'
+
+2022-05-12 11:31:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Login/txt_password"), findTestData("data_Login_Negative").getValue(2, i)): Text 'hans123' is set on object 'Object Repository/Object-Web/Object_Login/txt_password'
+
+2022-05-12 11:31:25 - [MESSAGE][PASSED] - Text 'hans123' is set on object 'Object Repository/Object-Web/Object_Login/txt_password'
+
+2022-05-12 11:31:25 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Login/submit_login_btn")): Object: 'Object Repository/Object-Web/Object_Login/submit_login_btn' is clicked on
+
+2022-05-12 11:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Login/submit_login_btn' is clicked on
+
+2022-05-12 11:31:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-12 11:31:26 - [MESSAGE][PASSED] - Browser is closed
+
+2022-05-12 11:31:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 11:31:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 11:31:29 - [TEST_STEP][PASSED] - openBrowser("https://qa.alta.id/"): Browser is opened with url: 'https://qa.alta.id/'
+
+2022-05-12 11:31:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 11:31:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 11:31:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.alta.id/'
+
+2022-05-12 11:31:33 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Login/go_to_login_page_btn")): Object: 'Object Repository/Object-Web/Object_Login/go_to_login_page_btn' is clicked on
+
+2022-05-12 11:31:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Login/go_to_login_page_btn' is clicked on
+
+2022-05-12 11:31:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Login/txt_email"), findTestData("data_Login_Negative").getValue(1, i)): Text 'aku@gmail.com' is set on object 'Object Repository/Object-Web/Object_Login/txt_email'
+
+2022-05-12 11:31:38 - [MESSAGE][PASSED] - Text 'aku@gmail.com' is set on object 'Object Repository/Object-Web/Object_Login/txt_email'
+
+2022-05-12 11:31:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Login/txt_password"), findTestData("data_Login_Negative").getValue(2, i)): Text '&&&&&123' is set on object 'Object Repository/Object-Web/Object_Login/txt_password'
+
+2022-05-12 11:31:39 - [MESSAGE][PASSED] - Text '&&&&&123' is set on object 'Object Repository/Object-Web/Object_Login/txt_password'
+
+2022-05-12 11:31:39 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Login/submit_login_btn")): Object: 'Object Repository/Object-Web/Object_Login/submit_login_btn' is clicked on
+
+2022-05-12 11:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Login/submit_login_btn' is clicked on
+
+2022-05-12 11:31:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-12 11:31:41 - [MESSAGE][PASSED] - Browser is closed
+
+2022-05-12 11:31:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 11:31:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 11:31:44 - [TEST_STEP][PASSED] - openBrowser("https://qa.alta.id/"): Browser is opened with url: 'https://qa.alta.id/'
+
+2022-05-12 11:31:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 11:31:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 11:31:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.alta.id/'
+
+2022-05-12 11:31:47 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Login/go_to_login_page_btn")): Object: 'Object Repository/Object-Web/Object_Login/go_to_login_page_btn' is clicked on
+
+2022-05-12 11:31:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Login/go_to_login_page_btn' is clicked on
+
+2022-05-12 11:31:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Login/txt_email"), findTestData("data_Login_Negative").getValue(1, i)): Text 'email 'or '1'='1 ' is set on object 'Object Repository/Object-Web/Object_Login/txt_email'
+
+2022-05-12 11:31:53 - [MESSAGE][PASSED] - Text 'email 'or '1'='1 ' is set on object 'Object Repository/Object-Web/Object_Login/txt_email'
+
+2022-05-12 11:31:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Login/txt_password"), findTestData("data_Login_Negative").getValue(2, i)): Text 'and password = 1' is set on object 'Object Repository/Object-Web/Object_Login/txt_password'
+
+2022-05-12 11:31:54 - [MESSAGE][PASSED] - Text 'and password = 1' is set on object 'Object Repository/Object-Web/Object_Login/txt_password'
+
+2022-05-12 11:31:54 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Login/submit_login_btn")): Object: 'Object Repository/Object-Web/Object_Login/submit_login_btn' is clicked on
+
+2022-05-12 11:31:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Login/submit_login_btn' is clicked on
+
+2022-05-12 11:31:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-12 11:31:56 - [MESSAGE][PASSED] - Browser is closed
+
+2022-05-12 11:31:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 11:31:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 11:31:59 - [TEST_STEP][PASSED] - openBrowser("https://qa.alta.id/"): Browser is opened with url: 'https://qa.alta.id/'
+
+2022-05-12 11:31:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 11:31:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 11:32:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.alta.id/'
+
+2022-05-12 11:32:02 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Login/go_to_login_page_btn")): Object: 'Object Repository/Object-Web/Object_Login/go_to_login_page_btn' is clicked on
+
+2022-05-12 11:32:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Login/go_to_login_page_btn' is clicked on
+
+2022-05-12 11:32:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Login/txt_email"), findTestData("data_Login_Negative").getValue(1, i)): Text 'hans@gmail.com, aku@gmail.com' is set on object 'Object Repository/Object-Web/Object_Login/txt_email'
+
+2022-05-12 11:32:08 - [MESSAGE][PASSED] - Text 'hans@gmail.com, aku@gmail.com' is set on object 'Object Repository/Object-Web/Object_Login/txt_email'
+
+2022-05-12 11:32:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Login/txt_password"), findTestData("data_Login_Negative").getValue(2, i)): Text 'hans123' is set on object 'Object Repository/Object-Web/Object_Login/txt_password'
+
+2022-05-12 11:32:09 - [MESSAGE][PASSED] - Text 'hans123' is set on object 'Object Repository/Object-Web/Object_Login/txt_password'
+
+2022-05-12 11:32:09 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Login/submit_login_btn")): Object: 'Object Repository/Object-Web/Object_Login/submit_login_btn' is clicked on
+
+2022-05-12 11:32:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Login/submit_login_btn' is clicked on
+
+2022-05-12 11:32:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-12 11:32:11 - [MESSAGE][PASSED] - Browser is closed
+
+2022-05-12 11:32:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 11:32:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 11:32:14 - [TEST_STEP][PASSED] - openBrowser("https://qa.alta.id/"): Browser is opened with url: 'https://qa.alta.id/'
+
+2022-05-12 11:32:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 11:32:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 11:32:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.alta.id/'
+
+2022-05-12 11:32:18 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Login/go_to_login_page_btn")): Object: 'Object Repository/Object-Web/Object_Login/go_to_login_page_btn' is clicked on
+
+2022-05-12 11:32:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Login/go_to_login_page_btn' is clicked on
+
+2022-05-12 11:32:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Login/txt_email"), findTestData("data_Login_Negative").getValue(1, i)): Text 'hans@@gmail,com' is set on object 'Object Repository/Object-Web/Object_Login/txt_email'
+
+2022-05-12 11:32:24 - [MESSAGE][PASSED] - Text 'hans@@gmail,com' is set on object 'Object Repository/Object-Web/Object_Login/txt_email'
+
+2022-05-12 11:32:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Login/txt_password"), findTestData("data_Login_Negative").getValue(2, i)): Text 'hans123' is set on object 'Object Repository/Object-Web/Object_Login/txt_password'
+
+2022-05-12 11:32:25 - [MESSAGE][PASSED] - Text 'hans123' is set on object 'Object Repository/Object-Web/Object_Login/txt_password'
+
+2022-05-12 11:32:25 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Login/submit_login_btn")): Object: 'Object Repository/Object-Web/Object_Login/submit_login_btn' is clicked on
+
+2022-05-12 11:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Login/submit_login_btn' is clicked on
+
+2022-05-12 11:32:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-12 11:32:27 - [MESSAGE][PASSED] - Browser is closed
+
+2022-05-12 11:32:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 11:32:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 11:32:30 - [TEST_STEP][PASSED] - openBrowser("https://qa.alta.id/"): Browser is opened with url: 'https://qa.alta.id/'
+
+2022-05-12 11:32:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 11:32:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 11:32:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.alta.id/'
+
+2022-05-12 11:32:33 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Login/go_to_login_page_btn")): Object: 'Object Repository/Object-Web/Object_Login/go_to_login_page_btn' is clicked on
+
+2022-05-12 11:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Login/go_to_login_page_btn' is clicked on
+
+2022-05-12 11:32:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Login/txt_email"), findTestData("data_Login_Negative").getValue(1, i)): Text '' is set on object 'Object Repository/Object-Web/Object_Login/txt_email'
+
+2022-05-12 11:32:39 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Object-Web/Object_Login/txt_email'
+
+2022-05-12 11:32:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Login/txt_password"), findTestData("data_Login_Negative").getValue(2, i)): Text 'hans123' is set on object 'Object Repository/Object-Web/Object_Login/txt_password'
+
+2022-05-12 11:32:39 - [MESSAGE][PASSED] - Text 'hans123' is set on object 'Object Repository/Object-Web/Object_Login/txt_password'
+
+2022-05-12 11:32:39 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Login/submit_login_btn")): Object: 'Object Repository/Object-Web/Object_Login/submit_login_btn' is clicked on
+
+2022-05-12 11:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Login/submit_login_btn' is clicked on
+
+2022-05-12 11:32:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-12 11:32:41 - [MESSAGE][PASSED] - Browser is closed
+
+2022-05-12 11:32:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 11:32:44 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-12 11:29:43 - [TEST_SUITE][PASSED] - Test_Suite_Negative: Test Cases/Automation_Web_Login/TC02_Login_Negative]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

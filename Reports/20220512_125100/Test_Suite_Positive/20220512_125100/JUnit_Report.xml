@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_Suite_Positive" time="172.756" tests="11" failures="0" errors="0">
+   <testsuite name="Test_Suite_Positive" tests="11" failures="0" errors="0" time="172.756" skipped="0" timestamp="2022-05-12 12:51:33" hostname="Hans-Mustofa - DESKTOP-MP0UU16" id="Test Suites/Test_Suite_Positive">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hans-Mustofa\\Katalon Studio\\Testing-WEB-Mini-Project-Hans\\Reports\\20220512_125100\\Test_Suite_Positive\\20220512_125100"/>
+         <property name="logFiles" value="C:\\Users\\Hans-Mustofa\\Katalon Studio\\Testing-WEB-Mini-Project-Hans\\Reports\\20220512_125100\\Test_Suite_Positive\\20220512_125100\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Hans-Mustofa - DESKTOP-MP0UU16"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.54"/>
+         <property name="hostAddress" value="192.168.173.1"/>
+         <property name="sessionId" value="0dc9878c9c4f2bcbd65311f6329487a1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Automation_Web_Register/TC01_Register" time="15.952" classname="Test Cases/Automation_Web_Register/TC01_Register" status="PASSED">
+         <system-out><![CDATA[2022-05-12 12:51:33 - [TEST_CASE][PASSED] - Test Cases/Automation_Web_Register/TC01_Register: Test Cases/Automation_Web_Register/TC01_Register
+
+2022-05-12 12:51:34 - [TEST_STEP][PASSED] - openBrowser("https://qa.alta.id/auth/login"): Browser is opened with url: 'https://qa.alta.id/auth/login'
+
+2022-05-12 12:51:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 12:51:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 12:51:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.alta.id/auth/login'
+
+2022-05-12 12:51:42 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Register/go_to_register_btn"), STOP_ON_FAILURE): Object: 'Object Repository/Object-Web/Object_Register/go_to_register_btn' is clicked on
+
+2022-05-12 12:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Register/go_to_register_btn' is clicked on
+
+2022-05-12 12:51:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_nama_lengkap"), "aku hans"): Text 'aku hans' is set on object 'Object Repository/Object-Web/Object_Register/txt_nama_lengkap'
+
+2022-05-12 12:51:44 - [MESSAGE][PASSED] - Text 'aku hans' is set on object 'Object Repository/Object-Web/Object_Register/txt_nama_lengkap'
+
+2022-05-12 12:51:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_email"), "hans1@email.com"): Text 'hans1@email.com' is set on object 'Object Repository/Object-Web/Object_Register/txt_email'
+
+2022-05-12 12:51:45 - [MESSAGE][PASSED] - Text 'hans1@email.com' is set on object 'Object Repository/Object-Web/Object_Register/txt_email'
+
+2022-05-12 12:51:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Register/txt_password"), "123123Bandung"): Text '123123Bandung' is set on object 'Object Repository/Object-Web/Object_Register/txt_password'
+
+2022-05-12 12:51:46 - [MESSAGE][PASSED] - Text '123123Bandung' is set on object 'Object Repository/Object-Web/Object_Register/txt_password'
+
+2022-05-12 12:51:46 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Register/submit_register_btn")): Object: 'Object Repository/Object-Web/Object_Register/submit_register_btn' is clicked on
+
+2022-05-12 12:51:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Register/submit_register_btn' is clicked on
+
+2022-05-12 12:51:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-12 12:51:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automation_Web_Login/TC02_Login" time="17.081" classname="Test Cases/Automation_Web_Login/TC02_Login" status="PASSED">
+         <system-out><![CDATA[2022-05-12 12:51:49 - [TEST_CASE][PASSED] - Test Cases/Automation_Web_Login/TC02_Login: Test Cases/Automation_Web_Login/TC02_Login
+
+2022-05-12 12:51:50 - [TEST_STEP][PASSED] - openBrowser("https://qa.alta.id/"): Browser is opened with url: 'https://qa.alta.id/'
+
+2022-05-12 12:51:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-12 12:51:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-12 12:51:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.alta.id/'
+
+2022-05-12 12:51:54 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Login/go_to_login_page_btn")): Object: 'Object Repository/Object-Web/Object_Login/go_to_login_page_btn' is clicked on
+
+2022-05-12 12:52:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Login/go_to_login_page_btn' is clicked on
+
+2022-05-12 12:52:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Login/txt_email"), "hans@email.com"): Text 'hans@email.com' is set on object 'Object Repository/Object-Web/Object_Login/txt_email'
+
+2022-05-12 12:52:02 - [MESSAGE][PASSED] - Text 'hans@email.com' is set on object 'Object Repository/Object-Web/Object_Login/txt_email'
+
+2022-05-12 12:52:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object-Web/Object_Login/txt_password"), "123123bandung"): Text '123123bandung' is set on object 'Object Repository/Object-Web/Object_Login/txt_password'
+
+2022-05-12 12:52:03 - [MESSAGE][PASSED] - Text '123123bandung' is set on object 'Object Repository/Object-Web/Object_Login/txt_password'
+
+2022-05-12 12:52:03 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Login/submit_login_btn")): Object: 'Object Repository/Object-Web/Object_Login/submit_login_btn' is clicked on
+
+2022-05-12 12:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Login/submit_login_btn' is clicked on
+
+2022-05-12 12:52:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:52:06 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automation_Select_Category/TC03_Select_Category" time="10.872" classname="Test Cases/Automation_Select_Category/TC03_Select_Category" status="PASSED">
+         <system-out><![CDATA[2022-05-12 12:52:06 - [TEST_CASE][PASSED] - Test Cases/Automation_Select_Category/TC03_Select_Category: Test Cases/Automation_Select_Category/TC03_Select_Category
+
+2022-05-12 12:52:08 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Select_Category/dropdown_Select_Category")): Object: 'Object Repository/Object-Web/Object_Select_Category/dropdown_Select_Category' is clicked on
+
+2022-05-12 12:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Select_Category/dropdown_Select_Category' is clicked on
+
+2022-05-12 12:52:11 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Select_Category/select_Kesehatan_txt")): Object: 'Object Repository/Object-Web/Object_Select_Category/select_Kesehatan_txt' is clicked on
+
+2022-05-12 12:52:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Select_Category/select_Kesehatan_txt' is clicked on
+
+2022-05-12 12:52:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-05-12 12:52:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-05-12 12:52:17 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Select_Category/unselect_Kesehatan_txt")): Object: 'Object Repository/Object-Web/Object_Select_Category/unselect_Kesehatan_txt' is clicked on
+
+2022-05-12 12:52:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Select_Category/unselect_Kesehatan_txt' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automation_Web_Cart/TC04_Cart" time="11.741" classname="Test Cases/Automation_Web_Cart/TC04_Cart" status="PASSED">
+         <system-out><![CDATA[2022-05-12 12:52:17 - [TEST_CASE][PASSED] - Test Cases/Automation_Web_Cart/TC04_Cart: Test Cases/Automation_Web_Cart/TC04_Cart
+
+2022-05-12 12:52:18 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Cart/beli_tensi_btn")): Object: 'Object Repository/Object-Web/Object_Cart/beli_tensi_btn' is clicked on
+
+2022-05-12 12:52:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Cart/beli_tensi_btn' is clicked on
+
+2022-05-12 12:52:21 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Cart/beli_kamera_btn")): Object: 'Object Repository/Object-Web/Object_Cart/beli_kamera_btn' is clicked on
+
+2022-05-12 12:52:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Cart/beli_kamera_btn' is clicked on
+
+2022-05-12 12:52:22 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Cart/beli_api_btn")): Object: 'Object Repository/Object-Web/Object_Cart/beli_api_btn' is clicked on
+
+2022-05-12 12:52:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Cart/beli_api_btn' is clicked on
+
+2022-05-12 12:52:22 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Cart/beli_pempek_btn")): Object: 'Object Repository/Object-Web/Object_Cart/beli_pempek_btn' is clicked on
+
+2022-05-12 12:52:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Cart/beli_pempek_btn' is clicked on
+
+2022-05-12 12:52:23 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Cart/beli_stetoskop_btn")): Object: 'Object Repository/Object-Web/Object_Cart/beli_stetoskop_btn' is clicked on
+
+2022-05-12 12:52:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Cart/beli_stetoskop_btn' is clicked on
+
+2022-05-12 12:52:23 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Cart/beli_cincin_btn")): Object: 'Object Repository/Object-Web/Object_Cart/beli_cincin_btn' is clicked on
+
+2022-05-12 12:52:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Cart/beli_cincin_btn' is clicked on
+
+2022-05-12 12:52:24 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Cart/beli_durian_btn")): Object: 'Object Repository/Object-Web/Object_Cart/beli_durian_btn' is clicked on
+
+2022-05-12 12:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Cart/beli_durian_btn' is clicked on
+
+2022-05-12 12:52:25 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Cart/beli_mesinjahit_btn")): Object: 'Object Repository/Object-Web/Object_Cart/beli_mesinjahit_btn' is clicked on
+
+2022-05-12 12:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Cart/beli_mesinjahit_btn' is clicked on
+
+2022-05-12 12:52:25 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Cart/beli_dd_btn")): Object: 'Object Repository/Object-Web/Object_Cart/beli_dd_btn' is clicked on
+
+2022-05-12 12:52:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Cart/beli_dd_btn' is clicked on
+
+2022-05-12 12:52:26 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Cart/beli_produkbersama_btn")): Object: 'Object Repository/Object-Web/Object_Cart/beli_produkbersama_btn' is clicked on
+
+2022-05-12 12:52:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Cart/beli_produkbersama_btn' is clicked on
+
+2022-05-12 12:52:27 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Cart/beli_produkcindi_btn")): Object: 'Object Repository/Object-Web/Object_Cart/beli_produkcindi_btn' is clicked on
+
+2022-05-12 12:52:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Cart/beli_produkcindi_btn' is clicked on
+
+2022-05-12 12:52:27 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Cart/beli_mousepad_btn")): Object: 'Object Repository/Object-Web/Object_Cart/beli_mousepad_btn' is clicked on
+
+2022-05-12 12:52:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Cart/beli_mousepad_btn' is clicked on
+
+2022-05-12 12:52:28 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Cart/beli_cangkir_btn")): Object: 'Object Repository/Object-Web/Object_Cart/beli_cangkir_btn' is clicked on
+
+2022-05-12 12:52:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Cart/beli_cangkir_btn' is clicked on
+
+2022-05-12 12:52:28 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Cart/icon_cart_btn")): Object: 'Object Repository/Object-Web/Object_Cart/icon_cart_btn' is clicked on
+
+2022-05-12 12:52:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Cart/icon_cart_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automation_Web_Checkout/TC05_Checkout" time="70.977" classname="Test Cases/Automation_Web_Checkout/TC05_Checkout" status="PASSED">
+         <system-out><![CDATA[2022-05-12 12:52:29 - [TEST_CASE][PASSED] - Test Cases/Automation_Web_Checkout/TC05_Checkout: Test Cases/Automation_Web_Checkout/TC05_Checkout
+
+2022-05-12 12:52:30 - [TEST_STEP][PASSED] - scrollToPosition(1, 1): Browser is scrolled to position x = 1, y = 1
+
+2022-05-12 12:52:30 - [MESSAGE][PASSED] - Browser is scrolled to position x = 1, y = 1
+
+2022-05-12 12:52:30 - [TEST_STEP][PASSED] - for ([i = 1, i <= 3, (i++)]): Delayed 3 second(s)
+
+2022-05-12 12:52:30 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/01_add_qty_tensi")): Object: 'Object Repository/Object-Web/Object_Checkout/01_add_qty_tensi' is clicked on
+
+2022-05-12 12:52:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/01_add_qty_tensi' is clicked on
+
+2022-05-12 12:52:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:52:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:52:33 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/01_add_qty_tensi")): Object: 'Object Repository/Object-Web/Object_Checkout/01_add_qty_tensi' is clicked on
+
+2022-05-12 12:52:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/01_add_qty_tensi' is clicked on
+
+2022-05-12 12:52:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:52:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:52:37 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/01_add_qty_tensi")): Object: 'Object Repository/Object-Web/Object_Checkout/01_add_qty_tensi' is clicked on
+
+2022-05-12 12:52:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/01_add_qty_tensi' is clicked on
+
+2022-05-12 12:52:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:52:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:52:40 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/01_min_qty_tensi")): Object: 'Object Repository/Object-Web/Object_Checkout/01_min_qty_tensi' is clicked on
+
+2022-05-12 12:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/01_min_qty_tensi' is clicked on
+
+2022-05-12 12:52:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:52:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:52:44 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/02_add_qty_kamera")): Object: 'Object Repository/Object-Web/Object_Checkout/02_add_qty_kamera' is clicked on
+
+2022-05-12 12:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/02_add_qty_kamera' is clicked on
+
+2022-05-12 12:52:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:52:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:52:47 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/03_add_qty_api")): Object: 'Object Repository/Object-Web/Object_Checkout/03_add_qty_api' is clicked on
+
+2022-05-12 12:52:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/03_add_qty_api' is clicked on
+
+2022-05-12 12:52:48 - [TEST_STEP][PASSED] - for ([i = 1, i <= 10, (i++)]): Delayed 3 second(s)
+
+2022-05-12 12:52:48 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/04_add_qty_pempek")): Object: 'Object Repository/Object-Web/Object_Checkout/04_add_qty_pempek' is clicked on
+
+2022-05-12 12:52:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/04_add_qty_pempek' is clicked on
+
+2022-05-12 12:52:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:52:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:52:51 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/04_add_qty_pempek")): Object: 'Object Repository/Object-Web/Object_Checkout/04_add_qty_pempek' is clicked on
+
+2022-05-12 12:52:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/04_add_qty_pempek' is clicked on
+
+2022-05-12 12:52:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:52:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:52:55 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/04_add_qty_pempek")): Object: 'Object Repository/Object-Web/Object_Checkout/04_add_qty_pempek' is clicked on
+
+2022-05-12 12:52:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/04_add_qty_pempek' is clicked on
+
+2022-05-12 12:52:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:52:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:52:58 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/04_add_qty_pempek")): Object: 'Object Repository/Object-Web/Object_Checkout/04_add_qty_pempek' is clicked on
+
+2022-05-12 12:52:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/04_add_qty_pempek' is clicked on
+
+2022-05-12 12:52:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:53:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:53:02 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/04_add_qty_pempek")): Object: 'Object Repository/Object-Web/Object_Checkout/04_add_qty_pempek' is clicked on
+
+2022-05-12 12:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/04_add_qty_pempek' is clicked on
+
+2022-05-12 12:53:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:53:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:53:05 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/04_add_qty_pempek")): Object: 'Object Repository/Object-Web/Object_Checkout/04_add_qty_pempek' is clicked on
+
+2022-05-12 12:53:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/04_add_qty_pempek' is clicked on
+
+2022-05-12 12:53:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:53:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:53:08 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/04_add_qty_pempek")): Object: 'Object Repository/Object-Web/Object_Checkout/04_add_qty_pempek' is clicked on
+
+2022-05-12 12:53:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/04_add_qty_pempek' is clicked on
+
+2022-05-12 12:53:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:53:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:53:12 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/04_add_qty_pempek")): Object: 'Object Repository/Object-Web/Object_Checkout/04_add_qty_pempek' is clicked on
+
+2022-05-12 12:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/04_add_qty_pempek' is clicked on
+
+2022-05-12 12:53:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:53:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:53:15 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/04_add_qty_pempek")): Object: 'Object Repository/Object-Web/Object_Checkout/04_add_qty_pempek' is clicked on
+
+2022-05-12 12:53:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/04_add_qty_pempek' is clicked on
+
+2022-05-12 12:53:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:53:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:53:19 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/04_add_qty_pempek")): Object: 'Object Repository/Object-Web/Object_Checkout/04_add_qty_pempek' is clicked on
+
+2022-05-12 12:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/04_add_qty_pempek' is clicked on
+
+2022-05-12 12:53:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:53:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:53:22 - [TEST_STEP][PASSED] - for ([i = 1, i <= 5, (i++)]): Delayed 3 second(s)
+
+2022-05-12 12:53:22 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/05_add_qty_stetoskop")): Object: 'Object Repository/Object-Web/Object_Checkout/05_add_qty_stetoskop' is clicked on
+
+2022-05-12 12:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/05_add_qty_stetoskop' is clicked on
+
+2022-05-12 12:53:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:53:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:53:26 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/05_add_qty_stetoskop")): Object: 'Object Repository/Object-Web/Object_Checkout/05_add_qty_stetoskop' is clicked on
+
+2022-05-12 12:53:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/05_add_qty_stetoskop' is clicked on
+
+2022-05-12 12:53:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:53:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:53:29 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/05_add_qty_stetoskop")): Object: 'Object Repository/Object-Web/Object_Checkout/05_add_qty_stetoskop' is clicked on
+
+2022-05-12 12:53:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/05_add_qty_stetoskop' is clicked on
+
+2022-05-12 12:53:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:53:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:53:33 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/05_add_qty_stetoskop")): Object: 'Object Repository/Object-Web/Object_Checkout/05_add_qty_stetoskop' is clicked on
+
+2022-05-12 12:53:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/05_add_qty_stetoskop' is clicked on
+
+2022-05-12 12:53:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:53:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:53:36 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/05_add_qty_stetoskop")): Object: 'Object Repository/Object-Web/Object_Checkout/05_add_qty_stetoskop' is clicked on
+
+2022-05-12 12:53:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/05_add_qty_stetoskop' is clicked on
+
+2022-05-12 12:53:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:53:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:53:39 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Checkout/submit_bayar_btn")): Object: 'Object Repository/Object-Web/Object_Checkout/submit_bayar_btn' is clicked on
+
+2022-05-12 12:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Checkout/submit_bayar_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automation_Web_Filter_Transactions/TC06_Filter_Transactions_by_Product" time="12.506" classname="Test Cases/Automation_Web_Filter_Transactions/TC06_Filter_Transactions_by_Product" status="PASSED">
+         <system-out><![CDATA[2022-05-12 12:53:40 - [TEST_CASE][PASSED] - Test Cases/Automation_Web_Filter_Transactions/TC06_Filter_Transactions_by_Product: Test Cases/Automation_Web_Filter_Transactions/TC06_Filter_Transactions_by_Product
+
+2022-05-12 12:53:41 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Logout/back_Homepage")): Object: 'Object Repository/Object-Web/Object_Logout/back_Homepage' is clicked on
+
+2022-05-12 12:53:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Logout/back_Homepage' is clicked on
+
+2022-05-12 12:53:42 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Filter_Transactions/icon_Account_btn")): Object: 'Object Repository/Object-Web/Object_Filter_Transactions/icon_Account_btn' is clicked on
+
+2022-05-12 12:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Filter_Transactions/icon_Account_btn' is clicked on
+
+2022-05-12 12:53:47 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Filter_Transactions/Transactions_btn")): Object: 'Object Repository/Object-Web/Object_Filter_Transactions/Transactions_btn' is clicked on
+
+2022-05-12 12:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Filter_Transactions/Transactions_btn' is clicked on
+
+2022-05-12 12:53:47 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Filter_Transactions/Filter_by_Product")): Object: 'Object Repository/Object-Web/Object_Filter_Transactions/Filter_by_Product' is clicked on
+
+2022-05-12 12:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Filter_Transactions/Filter_by_Product' is clicked on
+
+2022-05-12 12:53:48 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2022-05-12 12:53:52 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automation_Web_Filter_Transactions/TC07_Filter_Transactions_by_Price" time="5.123" classname="Test Cases/Automation_Web_Filter_Transactions/TC07_Filter_Transactions_by_Price" status="PASSED">
+         <system-out><![CDATA[2022-05-12 12:53:52 - [TEST_CASE][PASSED] - Test Cases/Automation_Web_Filter_Transactions/TC07_Filter_Transactions_by_Price: Test Cases/Automation_Web_Filter_Transactions/TC07_Filter_Transactions_by_Price
+
+2022-05-12 12:53:53 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Filter_Transactions/Filter_by_Price")): Object: 'Object Repository/Object-Web/Object_Filter_Transactions/Filter_by_Price' is clicked on
+
+2022-05-12 12:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Filter_Transactions/Filter_by_Price' is clicked on
+
+2022-05-12 12:53:54 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2022-05-12 12:53:58 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automation_Web_Filter_Transactions/TC08_Filter_Transaction_by_Qty" time="5.012" classname="Test Cases/Automation_Web_Filter_Transactions/TC08_Filter_Transaction_by_Qty" status="PASSED">
+         <system-out><![CDATA[2022-05-12 12:53:58 - [TEST_CASE][PASSED] - Test Cases/Automation_Web_Filter_Transactions/TC08_Filter_Transaction_by_Qty: Test Cases/Automation_Web_Filter_Transactions/TC08_Filter_Transaction_by_Qty
+
+2022-05-12 12:53:58 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Filter_Transactions/Filter_by_Quantity")): Object: 'Object Repository/Object-Web/Object_Filter_Transactions/Filter_by_Quantity' is clicked on
+
+2022-05-12 12:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Filter_Transactions/Filter_by_Quantity' is clicked on
+
+2022-05-12 12:53:59 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2022-05-12 12:54:03 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automation_Web_Filter_Transactions/TC09_Filter_Transaction_by_SubTotal" time="5.071" classname="Test Cases/Automation_Web_Filter_Transactions/TC09_Filter_Transaction_by_SubTotal" status="PASSED">
+         <system-out><![CDATA[2022-05-12 12:54:03 - [TEST_CASE][PASSED] - Test Cases/Automation_Web_Filter_Transactions/TC09_Filter_Transaction_by_SubTotal: Test Cases/Automation_Web_Filter_Transactions/TC09_Filter_Transaction_by_SubTotal
+
+2022-05-12 12:54:03 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Filter_Transactions/Filter_by_SubTotal")): Object: 'Object Repository/Object-Web/Object_Filter_Transactions/Filter_by_SubTotal' is clicked on
+
+2022-05-12 12:54:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Filter_Transactions/Filter_by_SubTotal' is clicked on
+
+2022-05-12 12:54:04 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2022-05-12 12:54:08 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automation_Web_Pagination/TC10_Pagination" time="15.967" classname="Test Cases/Automation_Web_Pagination/TC10_Pagination" status="PASSED">
+         <system-out><![CDATA[2022-05-12 12:54:08 - [TEST_CASE][PASSED] - Test Cases/Automation_Web_Pagination/TC10_Pagination: Test Cases/Automation_Web_Pagination/TC10_Pagination
+
+2022-05-12 12:54:08 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Filter_Transactions/icon_Account_btn")): Object: 'Object Repository/Object-Web/Object_Filter_Transactions/icon_Account_btn' is clicked on
+
+2022-05-12 12:54:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Filter_Transactions/icon_Account_btn' is clicked on
+
+2022-05-12 12:54:09 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Filter_Transactions/Transactions_btn")): Object: 'Object Repository/Object-Web/Object_Filter_Transactions/Transactions_btn' is clicked on
+
+2022-05-12 12:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Filter_Transactions/Transactions_btn' is clicked on
+
+2022-05-12 12:54:10 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Pagination/add_Pagination")): Object: 'Object Repository/Object-Web/Object_Pagination/add_Pagination' is clicked on
+
+2022-05-12 12:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Pagination/add_Pagination' is clicked on
+
+2022-05-12 12:54:10 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Pagination/add_Pagination_5")): Object: 'Object Repository/Object-Web/Object_Pagination/add_Pagination_5' is clicked on
+
+2022-05-12 12:54:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Pagination/add_Pagination_5' is clicked on
+
+2022-05-12 12:54:11 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2022-05-12 12:54:15 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-05-12 12:54:15 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Pagination/add_Pagination")): Object: 'Object Repository/Object-Web/Object_Pagination/add_Pagination' is clicked on
+
+2022-05-12 12:54:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Pagination/add_Pagination' is clicked on
+
+2022-05-12 12:54:15 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Pagination/add_pagination_10")): Object: 'Object Repository/Object-Web/Object_Pagination/add_pagination_10' is clicked on
+
+2022-05-12 12:54:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Pagination/add_pagination_10' is clicked on
+
+2022-05-12 12:54:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:54:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:54:19 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Pagination/add_Pagination")): Object: 'Object Repository/Object-Web/Object_Pagination/add_Pagination' is clicked on
+
+2022-05-12 12:54:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Pagination/add_Pagination' is clicked on
+
+2022-05-12 12:54:19 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Pagination/add_Pagination_15")): Object: 'Object Repository/Object-Web/Object_Pagination/add_Pagination_15' is clicked on
+
+2022-05-12 12:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Pagination/add_Pagination_15' is clicked on
+
+2022-05-12 12:54:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-12 12:54:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-12 12:54:23 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Pagination/add_Pagination")): Object: 'Object Repository/Object-Web/Object_Pagination/add_Pagination' is clicked on
+
+2022-05-12 12:54:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Pagination/add_Pagination' is clicked on
+
+2022-05-12 12:54:23 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Pagination/add_Pagination_All")): Object: 'Object Repository/Object-Web/Object_Pagination/add_Pagination_All' is clicked on
+
+2022-05-12 12:54:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Pagination/add_Pagination_All' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automation_Web_Logout/TC11_Logout" time="1.652" classname="Test Cases/Automation_Web_Logout/TC11_Logout" status="PASSED">
+         <system-out><![CDATA[2022-05-12 12:54:24 - [TEST_CASE][PASSED] - Test Cases/Automation_Web_Logout/TC11_Logout: Test Cases/Automation_Web_Logout/TC11_Logout
+
+2022-05-12 12:54:24 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Filter_Transactions/icon_Account_btn")): Object: 'Object Repository/Object-Web/Object_Filter_Transactions/icon_Account_btn' is clicked on
+
+2022-05-12 12:54:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Filter_Transactions/icon_Account_btn' is clicked on
+
+2022-05-12 12:54:25 - [TEST_STEP][PASSED] - click(findTestObject("Object-Web/Object_Logout/icon_Logout_btn")): Object: 'Object Repository/Object-Web/Object_Logout/icon_Logout_btn' is clicked on
+
+2022-05-12 12:54:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Object-Web/Object_Logout/icon_Logout_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-12 12:51:33 - [TEST_SUITE][PASSED] - Test_Suite_Positive: Test Cases/Automation_Web_Logout/TC11_Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

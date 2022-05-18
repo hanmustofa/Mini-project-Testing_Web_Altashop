@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_Filter_Transaction_by_Qty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>973860f0-630b-4ae1-b9de-cf7b696df333</testCaseGuid>
+</TestCaseEntity>

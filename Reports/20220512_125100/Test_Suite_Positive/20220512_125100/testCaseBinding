@@ -1,0 +1,11 @@
+{"testCaseName":"Test Cases/Automation_Web_Register/TC01_Register","testCaseId":"Test Cases/Automation_Web_Register/TC01_Register"}
+{"testCaseName":"Test Cases/Automation_Web_Login/TC02_Login","testCaseId":"Test Cases/Automation_Web_Login/TC02_Login"}
+{"testCaseName":"Test Cases/Automation_Select_Category/TC03_Select_Category","testCaseId":"Test Cases/Automation_Select_Category/TC03_Select_Category"}
+{"testCaseName":"Test Cases/Automation_Web_Cart/TC04_Cart","testCaseId":"Test Cases/Automation_Web_Cart/TC04_Cart"}
+{"testCaseName":"Test Cases/Automation_Web_Checkout/TC05_Checkout","testCaseId":"Test Cases/Automation_Web_Checkout/TC05_Checkout"}
+{"testCaseName":"Test Cases/Automation_Web_Filter_Transactions/TC06_Filter_Transactions_by_Product","testCaseId":"Test Cases/Automation_Web_Filter_Transactions/TC06_Filter_Transactions_by_Product"}
+{"testCaseName":"Test Cases/Automation_Web_Filter_Transactions/TC07_Filter_Transactions_by_Price","testCaseId":"Test Cases/Automation_Web_Filter_Transactions/TC07_Filter_Transactions_by_Price"}
+{"testCaseName":"Test Cases/Automation_Web_Filter_Transactions/TC08_Filter_Transaction_by_Qty","testCaseId":"Test Cases/Automation_Web_Filter_Transactions/TC08_Filter_Transaction_by_Qty"}
+{"testCaseName":"Test Cases/Automation_Web_Filter_Transactions/TC09_Filter_Transaction_by_SubTotal","testCaseId":"Test Cases/Automation_Web_Filter_Transactions/TC09_Filter_Transaction_by_SubTotal"}
+{"testCaseName":"Test Cases/Automation_Web_Pagination/TC10_Pagination","testCaseId":"Test Cases/Automation_Web_Pagination/TC10_Pagination"}
+{"testCaseName":"Test Cases/Automation_Web_Logout/TC11_Logout","testCaseId":"Test Cases/Automation_Web_Logout/TC11_Logout"}

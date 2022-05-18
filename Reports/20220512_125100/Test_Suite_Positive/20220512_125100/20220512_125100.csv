@@ -1,0 +1,91 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Suite_Positive,Chrome 101.0.4951.54,,,2022-05-12 12:51:33,2022-05-12 12:54:25,"2m - 52,756s",PASSED
+,,,,,,,
+Test Cases/Automation_Web_Register/TC01_Register,Chrome 101.0.4951.54,,,2022-05-12 12:51:33,2022-05-12 12:51:49,"15,952s",PASSED
+"openBrowser(""https://qa.alta.id/auth/login"")",Chrome 101.0.4951.54,,,2022-05-12 12:51:34,2022-05-12 12:51:42,"7,429s",PASSED
+"click(findTestObject(""Object-Web/Object_Register/go_to_register_btn""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-12 12:51:42,2022-05-12 12:51:43,"1,155s",PASSED
+"setText(findTestObject(""Object-Web/Object_Register/txt_nama_lengkap""), ""aku hans"")",Chrome 101.0.4951.54,,,2022-05-12 12:51:43,2022-05-12 12:51:44,"1,370s",PASSED
+"setText(findTestObject(""Object-Web/Object_Register/txt_email""), ""hans1@email.com"")",Chrome 101.0.4951.54,,,2022-05-12 12:51:44,2022-05-12 12:51:45,"1,197s",PASSED
+"setText(findTestObject(""Object-Web/Object_Register/txt_password""), ""123123Bandung"")",Chrome 101.0.4951.54,,,2022-05-12 12:51:45,2022-05-12 12:51:46,"1,098s",PASSED
+"click(findTestObject(""Object-Web/Object_Register/submit_register_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:51:46,2022-05-12 12:51:47,"0,717s",PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-12 12:51:47,2022-05-12 12:51:49,"2,147s",PASSED
+,,,,,,,
+Test Cases/Automation_Web_Login/TC02_Login,Chrome 101.0.4951.54,,,2022-05-12 12:51:49,2022-05-12 12:52:06,"17,081s",PASSED
+"openBrowser(""https://qa.alta.id/"")",Chrome 101.0.4951.54,,,2022-05-12 12:51:50,2022-05-12 12:51:54,"3,708s",PASSED
+"click(findTestObject(""Object-Web/Object_Login/go_to_login_page_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:51:54,2022-05-12 12:52:00,"6,552s",PASSED
+"setText(findTestObject(""Object-Web/Object_Login/txt_email""), ""hans@email.com"")",Chrome 101.0.4951.54,,,2022-05-12 12:52:00,2022-05-12 12:52:02,"1,316s",PASSED
+"setText(findTestObject(""Object-Web/Object_Login/txt_password""), ""123123bandung"")",Chrome 101.0.4951.54,,,2022-05-12 12:52:02,2022-05-12 12:52:03,"0,973s",PASSED
+"click(findTestObject(""Object-Web/Object_Login/submit_login_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:03,2022-05-12 12:52:03,"0,552s",PASSED
+delay(3),Chrome 101.0.4951.54,,,2022-05-12 12:52:03,2022-05-12 12:52:06,"3,066s",PASSED
+,,,,,,,
+Test Cases/Automation_Select_Category/TC03_Select_Category,Chrome 101.0.4951.54,,,2022-05-12 12:52:06,2022-05-12 12:52:17,"10,872s",PASSED
+"click(findTestObject(""Object-Web/Object_Select_Category/dropdown_Select_Category""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:08,2022-05-12 12:52:11,"3,029s",PASSED
+"click(findTestObject(""Object-Web/Object_Select_Category/select_Kesehatan_txt""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:11,2022-05-12 12:52:12,"0,821s",PASSED
+delay(5),Chrome 101.0.4951.54,,,2022-05-12 12:52:12,2022-05-12 12:52:17,"5,014s",PASSED
+"click(findTestObject(""Object-Web/Object_Select_Category/unselect_Kesehatan_txt""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:17,2022-05-12 12:52:17,"0,490s",PASSED
+,,,,,,,
+Test Cases/Automation_Web_Cart/TC04_Cart,Chrome 101.0.4951.54,,,2022-05-12 12:52:17,2022-05-12 12:52:29,"11,741s",PASSED
+"click(findTestObject(""Object-Web/Object_Cart/beli_tensi_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:18,2022-05-12 12:52:21,"2,564s",PASSED
+"click(findTestObject(""Object-Web/Object_Cart/beli_kamera_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:21,2022-05-12 12:52:22,"0,653s",PASSED
+"click(findTestObject(""Object-Web/Object_Cart/beli_api_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:22,2022-05-12 12:52:22,"0,642s",PASSED
+"click(findTestObject(""Object-Web/Object_Cart/beli_pempek_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:22,2022-05-12 12:52:23,"0,574s",PASSED
+"click(findTestObject(""Object-Web/Object_Cart/beli_stetoskop_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:23,2022-05-12 12:52:23,"0,528s",PASSED
+"click(findTestObject(""Object-Web/Object_Cart/beli_cincin_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:23,2022-05-12 12:52:24,"0,669s",PASSED
+"click(findTestObject(""Object-Web/Object_Cart/beli_durian_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:24,2022-05-12 12:52:25,"0,562s",PASSED
+"click(findTestObject(""Object-Web/Object_Cart/beli_mesinjahit_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:25,2022-05-12 12:52:25,"0,616s",PASSED
+"click(findTestObject(""Object-Web/Object_Cart/beli_dd_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:25,2022-05-12 12:52:26,"0,640s",PASSED
+"click(findTestObject(""Object-Web/Object_Cart/beli_produkbersama_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:26,2022-05-12 12:52:27,"0,628s",PASSED
+"click(findTestObject(""Object-Web/Object_Cart/beli_produkcindi_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:27,2022-05-12 12:52:27,"0,617s",PASSED
+"click(findTestObject(""Object-Web/Object_Cart/beli_mousepad_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:27,2022-05-12 12:52:28,"0,528s",PASSED
+"click(findTestObject(""Object-Web/Object_Cart/beli_cangkir_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:28,2022-05-12 12:52:28,"0,798s",PASSED
+"click(findTestObject(""Object-Web/Object_Cart/icon_cart_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:28,2022-05-12 12:52:29,"0,483s",PASSED
+,,,,,,,
+Test Cases/Automation_Web_Checkout/TC05_Checkout,Chrome 101.0.4951.54,,,2022-05-12 12:52:29,2022-05-12 12:53:40,"1m - 10,977s",PASSED
+"scrollToPosition(1, 1)",Chrome 101.0.4951.54,,,2022-05-12 12:52:30,2022-05-12 12:52:30,"0,032s",PASSED
+"for ([i = 1, i <= 3, (i++)])",Chrome 101.0.4951.54,,,2022-05-12 12:52:30,2022-05-12 12:52:40,"10,469s",PASSED
+"click(findTestObject(""Object-Web/Object_Checkout/01_min_qty_tensi""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:40,2022-05-12 12:52:41,"0,499s",PASSED
+delay(3),Chrome 101.0.4951.54,,,2022-05-12 12:52:41,2022-05-12 12:52:44,"3,005s",PASSED
+"click(findTestObject(""Object-Web/Object_Checkout/02_add_qty_kamera""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:44,2022-05-12 12:52:44,"0,407s",PASSED
+delay(3),Chrome 101.0.4951.54,,,2022-05-12 12:52:44,2022-05-12 12:52:47,"3,011s",PASSED
+"click(findTestObject(""Object-Web/Object_Checkout/03_add_qty_api""))",Chrome 101.0.4951.54,,,2022-05-12 12:52:47,2022-05-12 12:52:48,"0,446s",PASSED
+"for ([i = 1, i <= 10, (i++)])",Chrome 101.0.4951.54,,,2022-05-12 12:52:48,2022-05-12 12:53:22,"34,484s",PASSED
+"for ([i = 1, i <= 5, (i++)])",Chrome 101.0.4951.54,,,2022-05-12 12:53:22,2022-05-12 12:53:39,"17,302s",PASSED
+"click(findTestObject(""Object-Web/Object_Checkout/submit_bayar_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:53:39,2022-05-12 12:53:40,"0,487s",PASSED
+,,,,,,,
+Test Cases/Automation_Web_Filter_Transactions/TC06_Filter_Transactions_by_Product,Chrome 101.0.4951.54,,,2022-05-12 12:53:40,2022-05-12 12:53:52,"12,506s",PASSED
+"click(findTestObject(""Object-Web/Object_Logout/back_Homepage""))",Chrome 101.0.4951.54,,,2022-05-12 12:53:41,2022-05-12 12:53:42,"0,525s",PASSED
+"click(findTestObject(""Object-Web/Object_Filter_Transactions/icon_Account_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:53:42,2022-05-12 12:53:47,"5,135s",PASSED
+"click(findTestObject(""Object-Web/Object_Filter_Transactions/Transactions_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:53:47,2022-05-12 12:53:47,"0,697s",PASSED
+"click(findTestObject(""Object-Web/Object_Filter_Transactions/Filter_by_Product""))",Chrome 101.0.4951.54,,,2022-05-12 12:53:47,2022-05-12 12:53:48,"0,979s",PASSED
+delay(4),Chrome 101.0.4951.54,,,2022-05-12 12:53:48,2022-05-12 12:53:52,"4,006s",PASSED
+,,,,,,,
+Test Cases/Automation_Web_Filter_Transactions/TC07_Filter_Transactions_by_Price,Chrome 101.0.4951.54,,,2022-05-12 12:53:52,2022-05-12 12:53:58,"5,123s",PASSED
+"click(findTestObject(""Object-Web/Object_Filter_Transactions/Filter_by_Price""))",Chrome 101.0.4951.54,,,2022-05-12 12:53:53,2022-05-12 12:53:54,"0,446s",PASSED
+delay(4),Chrome 101.0.4951.54,,,2022-05-12 12:53:54,2022-05-12 12:53:58,"4,016s",PASSED
+,,,,,,,
+Test Cases/Automation_Web_Filter_Transactions/TC08_Filter_Transaction_by_Qty,Chrome 101.0.4951.54,,,2022-05-12 12:53:58,2022-05-12 12:54:03,"5,012s",PASSED
+"click(findTestObject(""Object-Web/Object_Filter_Transactions/Filter_by_Quantity""))",Chrome 101.0.4951.54,,,2022-05-12 12:53:58,2022-05-12 12:53:59,"0,412s",PASSED
+delay(4),Chrome 101.0.4951.54,,,2022-05-12 12:53:59,2022-05-12 12:54:03,"4,011s",PASSED
+,,,,,,,
+Test Cases/Automation_Web_Filter_Transactions/TC09_Filter_Transaction_by_SubTotal,Chrome 101.0.4951.54,,,2022-05-12 12:54:03,2022-05-12 12:54:08,"5,071s",PASSED
+"click(findTestObject(""Object-Web/Object_Filter_Transactions/Filter_by_SubTotal""))",Chrome 101.0.4951.54,,,2022-05-12 12:54:03,2022-05-12 12:54:04,"0,505s",PASSED
+delay(4),Chrome 101.0.4951.54,,,2022-05-12 12:54:04,2022-05-12 12:54:08,"4,006s",PASSED
+,,,,,,,
+Test Cases/Automation_Web_Pagination/TC10_Pagination,Chrome 101.0.4951.54,,,2022-05-12 12:54:08,2022-05-12 12:54:24,"15,967s",PASSED
+"click(findTestObject(""Object-Web/Object_Filter_Transactions/icon_Account_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:54:08,2022-05-12 12:54:09,"0,808s",PASSED
+"click(findTestObject(""Object-Web/Object_Filter_Transactions/Transactions_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:54:09,2022-05-12 12:54:10,"0,520s",PASSED
+"click(findTestObject(""Object-Web/Object_Pagination/add_Pagination""))",Chrome 101.0.4951.54,,,2022-05-12 12:54:10,2022-05-12 12:54:10,"0,580s",PASSED
+"click(findTestObject(""Object-Web/Object_Pagination/add_Pagination_5""))",Chrome 101.0.4951.54,,,2022-05-12 12:54:10,2022-05-12 12:54:11,"0,596s",PASSED
+delay(4),Chrome 101.0.4951.54,,,2022-05-12 12:54:11,2022-05-12 12:54:15,"4,013s",PASSED
+"click(findTestObject(""Object-Web/Object_Pagination/add_Pagination""))",Chrome 101.0.4951.54,,,2022-05-12 12:54:15,2022-05-12 12:54:15,"0,402s",PASSED
+"click(findTestObject(""Object-Web/Object_Pagination/add_pagination_10""))",Chrome 101.0.4951.54,,,2022-05-12 12:54:15,2022-05-12 12:54:16,"0,597s",PASSED
+delay(3),Chrome 101.0.4951.54,,,2022-05-12 12:54:16,2022-05-12 12:54:19,"3,011s",PASSED
+"click(findTestObject(""Object-Web/Object_Pagination/add_Pagination""))",Chrome 101.0.4951.54,,,2022-05-12 12:54:19,2022-05-12 12:54:19,"0,457s",PASSED
+"click(findTestObject(""Object-Web/Object_Pagination/add_Pagination_15""))",Chrome 101.0.4951.54,,,2022-05-12 12:54:19,2022-05-12 12:54:20,"0,434s",PASSED
+delay(3),Chrome 101.0.4951.54,,,2022-05-12 12:54:20,2022-05-12 12:54:23,"3,013s",PASSED
+"click(findTestObject(""Object-Web/Object_Pagination/add_Pagination""))",Chrome 101.0.4951.54,,,2022-05-12 12:54:23,2022-05-12 12:54:23,"0,395s",PASSED
+"click(findTestObject(""Object-Web/Object_Pagination/add_Pagination_All""))",Chrome 101.0.4951.54,,,2022-05-12 12:54:23,2022-05-12 12:54:24,"0,477s",PASSED
+,,,,,,,
+Test Cases/Automation_Web_Logout/TC11_Logout,Chrome 101.0.4951.54,,,2022-05-12 12:54:24,2022-05-12 12:54:25,"1,652s",PASSED
+"click(findTestObject(""Object-Web/Object_Filter_Transactions/icon_Account_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:54:24,2022-05-12 12:54:25,"0,522s",PASSED
+"click(findTestObject(""Object-Web/Object_Logout/icon_Logout_btn""))",Chrome 101.0.4951.54,,,2022-05-12 12:54:25,2022-05-12 12:54:25,"0,602s",PASSED
